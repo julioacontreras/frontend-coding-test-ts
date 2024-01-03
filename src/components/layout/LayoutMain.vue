@@ -32,12 +32,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import { Notification } from '../../types/notification';
+import { ref } from 'vue'
+import { Notification } from '../../types/notification'
 import ToastNotification from '../toast-notification/index.vue'
 import { EventData, addEvent } from '../../eventBus'
 
-const notification: Notification = ref<Notification>({
+const notification = ref<Notification>({
   isVisible: false,
   message: '',
   type: '',

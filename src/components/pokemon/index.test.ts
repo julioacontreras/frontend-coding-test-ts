@@ -23,7 +23,7 @@ describe('Pokemon component', () => {
     expect(wrapper).toBeTruthy()
   })
 
-  it('should check have name in button', () => {
+  it('should check has name in button', () => {
     const wrapper = build()
     expect(wrapper.find('button')).toBeDefined()
     expect(wrapper.find('button').text()).toEqual('my-pokemon')
